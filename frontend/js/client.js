@@ -1181,7 +1181,7 @@ function endCall() {
     saveLocalStorageConfig();
     signalingSocket.disconnect();
     if (surveyURL) {
-        giveMeFeedback();
+        // giveMeFeedback();
     } else {
         redirectOnLeave();
     }
