@@ -8,17 +8,18 @@
 }
 
 body {
-    display: flex;
     box-sizing: border-box;
     min-height: 100vh;
-    justify-content: center;
-    align-items: center;
     background-color: var(--primary-color);
     font-family: 'Montserrat';
+    display: block; /* <-- This is key: stop using flex on body */
+    text-align: center;
+    padding-top: 2rem;
 }
 
 form {
     width: 240px;
+    margin: 2rem auto; /* <-- centers the form horizontally */
     padding: 10px 50px 40px 25px;
     color: var(--text-color);
     border-radius: 1rem;
@@ -104,4 +105,10 @@ button:hover {
 #supportBtn:hover {
     transform: scale(0.9);
     box-shadow: none;
+}
+.heading-img {
+    width: auto;
+    height: 350px;        /* Set height to 400px */
+    display: block;       /* Remove inline gap */
+    margin: 0 auto;       /* Center the image horizontally */
 }
