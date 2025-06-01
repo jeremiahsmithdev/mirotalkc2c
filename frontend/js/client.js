@@ -1182,6 +1182,7 @@ function endCall() {
     signalingSocket.disconnect();
     if (surveyURL) {
         // giveMeFeedback();
+        redirectOnLeave(); // skip feedback
     } else {
         redirectOnLeave();
     }
