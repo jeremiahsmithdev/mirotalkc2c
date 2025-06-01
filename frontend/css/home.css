@@ -112,3 +112,6 @@ button:hover {
     display: block;       /* Remove inline gap */
     margin: 0 auto;       /* Center the image horizontally */
 }
+h1 {
+    color: #ffffff;
+}
