@@ -125,3 +125,8 @@ h1 {
     font-style: italic;
     letter-spacing: 0.5px;
 }
+form button {
+    display: block;
+    margin: 2rem auto;
+    width: 50%; /* optional: or use a fixed width like 150px */
+}
