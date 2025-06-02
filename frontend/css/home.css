@@ -115,3 +115,13 @@ button:hover {
 h1 {
     color: #ffffff;
 }
+.subtitle {
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 300;
+    color: white;
+    margin-top: -12px;
+    margin-bottom: 24px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+}
