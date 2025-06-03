@@ -4,6 +4,6 @@
 
 const script = document.createElement('script');
 script.setAttribute('async', '');
-script.setAttribute('src', 'https://stats.mirotalk.com/script.js');
-script.setAttribute('data-website-id', 'd7ae2304-7d9c-4651-b0c8-2f3e0a18224f');
+script.setAttribute('src', 'https://analytics.quillo.vip/script.js');
+script.setAttribute('data-website-id', '7a80476f-a5b1-4fbb-8211-d00d9f5d2517');
 document.head.appendChild(script);
