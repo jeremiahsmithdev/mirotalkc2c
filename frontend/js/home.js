@@ -32,7 +32,7 @@ function initHome() {
         }
     };
     supportBtn.onclick = () => {
-        window.open('https://codecanyon.net/user/miroslavpejic85', '_blank');
+        window.open('https://privsecure.com.au', '_blank');
     };
 
     !config.support && elementDisplay(supportBtn, false);
